@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:aqua !important;
+}
+.heading{
+    text-align: center;
+}
+@media only screen and (max-width: 576px) {
+    .grade,
+    .credit {
+        width: 80% !important;  
+    }
+    .table th, .table td {
+        width: auto !important; /* Override any default widths */
+    }
+    .btn-cal{
+      
+        width:150px !important;
+        height: 40px !important;
+        font-size: large !important;
+    }  
+    
+}
+.table{
+    text-align: center;
+}
+.calculation{
+    text-align: center;
+    align-self: center;
+}
+.btn-cal{
+    border:2px solid black;
+    background-color: blue;
+    width:200px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 10px;
+    font-size: x-large;
+}
+p{
+    padding: 10px;
+
+}
+#calc{
+    width: 40% ;
+    height: 50%;
+}
